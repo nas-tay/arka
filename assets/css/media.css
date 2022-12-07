@@ -78,6 +78,11 @@
   .custom__process {
     flex-direction: column;
   }
+  .footer__subscribe {
+    flex-basis: 100%;
+    align-items: center;
+    padding: 20px 0;
+  }
 }
 @media (max-width: 850px) {
   .block-title {
@@ -140,6 +145,14 @@
   }
   .review-person__profile {
     margin-bottom: 15px;
+  }
+  .footer__logo {
+    flex-basis: 100%;
+    order: 1;
+    text-align: center;
+  }
+  .footer__subscribe {
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 550px) {
@@ -209,5 +222,15 @@
   }
   .start__btn {
     margin-bottom: 20px;
+  }
+  .footer__wrapper {
+    flex-direction: column;
+  }
+  .footer__logo {
+    order: 0;
+    margin-bottom: 20px;
+  }
+  .footer__subscribe {
+    align-items: start;
   }
 }

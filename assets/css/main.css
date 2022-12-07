@@ -368,6 +368,7 @@ a {
 }
 .footer__wrapper {
   padding: 5% 0px;
+  flex-wrap: wrap;
 }
 .footer__list-item {
   margin-bottom: 17px;
