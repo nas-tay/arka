@@ -78,6 +78,12 @@
   .custom__process {
     flex-direction: column;
   }
+  .advantage {
+    margin-bottom: 40px;
+  }
+  .request__wrapper {
+    padding: 40px 5px;
+  }
   .footer__subscribe {
     flex-basis: 100%;
     align-items: center;
@@ -103,9 +109,6 @@
   }
   .products__card-image {
     width: 70%;
-  }
-  .advantage {
-    margin-bottom: 70px;
   }
   .advantage__block-title {
     margin-bottom: 25px;

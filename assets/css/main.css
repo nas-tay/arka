@@ -256,9 +256,11 @@ a {
   max-width: 16.5vw;
 }
 .request {
-  background-color: #ffca3a;
-  padding: 110px 0px;
   margin-bottom: 8.5%;
+}
+.request__wrapper {
+  background-color: #ffca3a;
+  padding: 110px;
 }
 .request__line {
   width: 1px;
